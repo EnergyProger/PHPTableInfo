@@ -33,19 +33,15 @@
     font-weight: bold;
     
 }
-
 .greenBackground{
     background: #008000;
 }
-
 .ageFontLess{
     color: #ff0000;
 }
-
 .ageFontMiddle{
     color: #00eeff; 
 }
-
 .ageFontMore{
     color: #ff23e2;
 }

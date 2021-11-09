@@ -38,8 +38,7 @@ $classAge = '';
                 <?php $classAge .= "ageFontMiddle"?>
             <?php endif;?>
 
-            <tr>
-                   
+            <tr>  
                 <?php foreach($user as $key=> $value):?>
                     <?php if($key == 'age'):?>
                         <td class="<?php echo $className.' '.$classAge;?>"><?php echo $value;?></td>
@@ -48,12 +47,10 @@ $classAge = '';
                     <?php endif;?>
                        
                 <?php endforeach;?>  
-                
             </tr>
             <?php $className = '';?>
             <?php $classAge = '';?>
         <?php endforeach;?>
-        
     </table>
    </div>
 </body>
